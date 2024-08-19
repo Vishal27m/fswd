@@ -1,0 +1,160 @@
+/* Style for the complaints container */
+.complaints-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto; /* Enables scrolling if the content exceeds container size */
+  height: calc(100vh - 40px); /* Adjust container height minus padding */
+}
+
+/* Style for the complaint type section */
+.complaint-type-section {
+  margin-bottom: 20px;
+}
+
+/* Style for the complaints table wrapper */
+.complaints-table-wrapper {
+  overflow-x: auto; /* Enables horizontal scrolling if needed */
+  max-height: calc(100vh - 200px); /* Adjust height based on other UI elements */
+}
+
+/* Style for the complaints table */
+.complaints-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9; /* Light background for the table */
+}
+
+/* Style for table headers */
+.complaints-table thead {
+  background-color: #007bff; /* Dark blue background for the header */
+  color: white; /* White text color for the header */
+}
+
+.complaints-table th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for table cells */
+.complaints-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+.complaints-table tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White background for odd rows */
+}
+
+.complaints-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Light border for table cells */
+  color: #333; /* Dark text color for better readability */
+}
+
+/* Style for table data in specific columns */
+.complaints-table td:nth-child(1) {
+  color: #007bff; /* Blue color for Complaint ID */
+  font-weight: bold;
+}
+
+.complaints-table td:nth-child(3) {
+  color: #28a745; /* Green color for Date */
+}
+
+.complaints-table td:nth-child(4) {
+  color: #ffc107; /* Amber color for Severity */
+}
+
+.complaints-table td:nth-child(5) {
+  color: #dc3545; /* Red color for Status */
+}
+
+/* Style for view button */
+.view-button {
+  background-color: #28a745; /* Green background for the button */
+  color: white; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #218838; /* Darker green when hovering */
+}
+
+/* Style for the modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 90vw; /* Responsive width */
+  max-width: 500px; /* Maximum width for large screens */
+  max-height: 80vh; /* Ensures modal does not exceed 80% of viewport height */
+  overflow-y: auto; /* Enables vertical scrolling if content exceeds max-height */
+}
+
+/* Style for the modal form */
+.modal-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-form select,
+.modal-form input[type="file"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Style for the file preview */
+.file-preview {
+  margin-top: 10px;
+}
+
+.file-preview a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+}
+
+.file-preview a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Style for modal buttons */
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-buttons button {
+  background-color: #007bff; /* Blue background for the buttons */
+  color: white; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-buttons button:hover {
+  background-color: #0056b3; /* Darker blue when hovering */
+}
+
+.modal-buttons button:first-of-type {
+  background-color: #28a745; /* Green background for the update button */
+}
+
+.modal-buttons button:first-of-type:hover {
+  background-color: #218838; /* Darker green when hovering */
+}
+
+.modal-buttons button:last-of-type {
+  background-color: #dc3545; /* Red background for the cancel button */
+}
+
+.modal-buttons button:last-of-type:hover {
+  background-color: #c82333; /* Darker red when hovering */
+}

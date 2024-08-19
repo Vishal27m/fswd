@@ -1,0 +1,153 @@
+/* Container for the entire article */
+.town-article-container {
+  background-color: #2e2c2c; /* Dark background color */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-height: 93.2vh;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Layout for content sections */
+.town-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the article text section */
+.article-text {
+  flex: 2;
+  margin-right: 20px; /* Maintain space between text and map */
+}
+
+/* Styles for the map and additional info container */
+.map-container {
+  flex: 1;
+  max-width: 45%;
+}
+
+/* Heading styles */
+.town-title {
+  color: #ffffff; /* White color for the main title */
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ffffff; /* White color for subheadings */
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #ffffff; /* White color for additional info headings */
+}
+
+/* Text styles */
+p {
+  color: #ffffff; /* White color for paragraphs */
+}
+
+/* Additional info section styles */
+.additional-info {
+  margin-top: 20px;
+}
+
+.additional-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.additional-info table td {
+  padding: 5px;
+  border-bottom: 1px solid #333;
+  vertical-align: top;
+}
+
+.additional-info table td:first-child {
+  font-weight: bold;
+  color: #ffffff; /* White color for table header cells */
+}
+
+.additional-info table td:last-child {
+  color: #ffffff; /* White color for table data cells */
+}
+
+/* Custom scrollbar styling */
+.town-article-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.town-article-container::-webkit-scrollbar-track {
+  background: #2b2b2b;
+  border-radius: 8px;
+}
+
+.town-article-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 8px;
+  border: 2px solid #2b2b2b;
+}
+
+.town-article-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Button container styles */
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* Common button styles */
+.edit-button, .save-button, .cancel-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px; /* Add space between buttons */
+}
+
+/* Edit button styles */
+.edit-button {
+  background-color: #007bff; /* Blue color for Edit button */
+}
+
+.edit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Save button styles */
+.save-button {
+  background-color: #28a745; /* Green color for Save button */
+}
+
+.save-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Cancel button styles */
+.cancel-button {
+  background-color: #dc3545; /* Red color for Cancel button */
+}
+
+.cancel-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Image styles */
+.images-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.town-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

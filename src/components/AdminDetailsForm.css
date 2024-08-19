@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for centering the form box */
+.admin-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5; /* Light gray background */
+}
+
+/* Form box styling */
+.admin-details-box {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Responsive width */
+  margin: 20px;
+}
+
+/* Heading style */
+.admin-details-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333; /* Dark gray text */
+  font-size: 24px; /* Larger heading */
+}
+
+/* Input container styling */
+.input-container {
+  margin-bottom: 20px;
+}
+
+/* Input and select field styling */
+.input-container input,
+.input-container select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Input and select field focus effect */
+.input-container input:focus,
+.input-container select:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+}
+
+/* Submit button styling */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff; /* Blue background */
+  color: #ffffff; /* White text */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Message styling */
+.admin-details-box p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666666; /* Medium gray text */
+}

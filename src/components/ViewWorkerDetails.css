@@ -1,0 +1,52 @@
+/* ViewWorkerDetails.css */
+.view-worker-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .view-worker-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .view-worker-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .view-worker-details table th,
+  .view-worker-details table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .view-worker-details table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .view-worker-details table td {
+    background-color: #fff;
+  }
+  
+  .view-worker-details table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+  }
+  
+  .view-worker-details table img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .view-worker-details table a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .view-worker-details table a:hover {
+    text-decoration: underline;
+  }
+  

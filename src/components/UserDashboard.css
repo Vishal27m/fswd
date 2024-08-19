@@ -1,0 +1,103 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #1c1c1c; /* Darker background for the overall container */
+}
+
+.dashboard-sidebar {
+  width: 250px;
+  background-color: #2c3e50; /* Dark blue-gray for the sidebar */
+  color: #ecf0f1; /* Light text color */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Shadow to separate from main content */
+}
+
+.dashboard-main {
+  flex: 1;
+  background-color: #f5f5f5; /* Light gray background for main content */
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.main-header {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* Community Hub (Dashboard) Styling */
+.dashboard-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  background-color: #ffffff; /* White background for cards */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for card elevation */
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.dashboard-card span[role="img"] {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Other views (ComplaintForm, PieChart, TownDetails) */
+.town-details-container,
+.piechart-container,
+.complaint-form-container {
+  padding: 20px;
+  background-color: #ffffff; /* Light background for these components */
+  color: #333333; /* Dark text color for readability */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for elevation */
+}
+
+.town-details-container h2,
+.piechart-container h2,
+.complaint-form-container h2 {
+  margin-top: 0;
+  color: #2c3e50; /* Dark color for headings */
+}
+
+.town-details-container p,
+.piechart-container p,
+.complaint-form-container p {
+  margin-bottom: 15px;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: #ecf0f1; /* Light text color for menu items */
+}
+
+.sidebar-menu li:hover {
+  text-decoration: underline;
+  color: #3498db; /* Bright color on hover for better visibility */
+}
+
+.logo-icon {
+  font-size: 24px;
+}
+
+.logo-text {
+  font-size: 18px;
+  margin-left: 10px;
+}
