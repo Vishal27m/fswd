@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/http//vishal27m.github.io/comm/static/css/main.155c35cd.css",
+    "main.css": "/http//vishal27m.github.io/comm/static/css/main.b99c5582.css",
     "main.js": "/http//vishal27m.github.io/comm/static/js/main.7df08be9.js",
     "static/js/453.32eebd0d.chunk.js": "/http//vishal27m.github.io/comm/static/js/453.32eebd0d.chunk.js",
     "static/media/Final logo.png": "/http//vishal27m.github.io/comm/static/media/Final logo.98a6b4673ffce222a619.png",
     "index.html": "/http//vishal27m.github.io/comm/index.html",
-    "main.155c35cd.css.map": "/http//vishal27m.github.io/comm/static/css/main.155c35cd.css.map",
+    "main.b99c5582.css.map": "/http//vishal27m.github.io/comm/static/css/main.b99c5582.css.map",
     "main.7df08be9.js.map": "/http//vishal27m.github.io/comm/static/js/main.7df08be9.js.map",
     "453.32eebd0d.chunk.js.map": "/http//vishal27m.github.io/comm/static/js/453.32eebd0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.155c35cd.css",
+    "static/css/main.b99c5582.css",
     "static/js/main.7df08be9.js"
   ]
 }
